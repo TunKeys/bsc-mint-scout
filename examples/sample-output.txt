@@ -1,0 +1,11 @@
+# Example output — real run on 2026-11-10 against AgentPad
+# (0x01c106835091c09D5c69737631Af133530093C89); wallet redacted.
+#
+# $ python3 mint_scout.py 0x01c106835091c09D5c69737631Af133530093C89 \
+#     --wallet 0xYourWalletAddress --max-supply 10000
+contract:    0x01c106835091c09D5c69737631Af133530093C89
+totalSupply: 5656 / 10000
+remaining:   4344
+balanceOf:   0 (wallet 0xYourWallet...)
+free path:   mint()
+verdict:     FREE MINT LIVE via mint()
